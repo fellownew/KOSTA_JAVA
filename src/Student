@@ -1,0 +1,6 @@
+public class Student{ // public class의 클래스명은 반드시 파일명과 동일해야 한다.
+	//속성 -> 동작
+	//속성 - 변수 : [제한자]DataType 변수명	[=값]
+	String name, telNo, email;
+	int studentNo;
+}
