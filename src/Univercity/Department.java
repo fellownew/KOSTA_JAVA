@@ -13,4 +13,9 @@ public class Department{
 		depNo=dN;
 		
 		}
+
+	public String getContents(){
+	String str = "학과명 : "+name"\n학과교수 : "+boss+"\n장소 : "+location+"\n학생수 : "+sutN+"\n";
+	return str;
+	}
 }

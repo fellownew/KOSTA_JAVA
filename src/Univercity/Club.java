@@ -12,4 +12,9 @@ public class Club{
 		stuN=sN;
 		
 		}
+
+	public String getContents(){
+	String str = "GroupName : "+GruopName+"\nboss : "+boss+"\n장소 : "+location+"\n학생수 : "+sutN+"\n";
+	return str;
+	}
 }
