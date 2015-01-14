@@ -25,15 +25,15 @@ public class BirthDate{
 		return year;
 	}
 	public void setYear(int year){
-		this.year=year;
-	}
+		if(1800<year&&year<=2020)this.year=year;
+		}
 
 	//month get,set
 	public int getMonth(){
 		return month;
 	}
 	public void setMonth(int month){
-		this.month=month;
+		if(0<month&&month<=12)this.month=month;
 	}
 
 	//day get,set
@@ -41,7 +41,7 @@ public class BirthDate{
 		return day;
 	}
 	public void setDay(int day){
-		this.day=day;
+		if(0<day&&day<=31)this.day=day;
 	}
 
 }
